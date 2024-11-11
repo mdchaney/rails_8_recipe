@@ -1,0 +1,10 @@
+<h1>Rails 8 Recipe</h1>
+
+<% if Current.user %>
+  <p>Welcome <%= Current.user.email_address %>!</p>
+  <p><%= link_to "Logout", session_path, method: :delete %></p>
+<% else %>
+  <p><%= link_to "Login", new_session_path %></p>
+<% end %>
+
+<p><%= link_to "Recipes", recipes_path %></p>
