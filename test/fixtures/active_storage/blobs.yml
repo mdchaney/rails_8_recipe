@@ -1,0 +1,17 @@
+one_blob:
+  key: aaaaWNGW1VrxZ8Eu4zmyw13A
+  filename: one.png
+  content_type: image/png
+  metadata: '{"identified:true,"analyzed:true}'
+  byte_size: 1024
+  checksum: fdUivZUf74Y6pjAiemuvlg==
+  service_name: test
+
+two_blob:
+  key: aaaaWNGW1VrxZ8Eu4zmyw13B
+  filename: two.png
+  content_type: image/png
+  metadata: '{"identified:true,"analyzed:true}'
+  byte_size: 1024
+  checksum: fdUivZUf74Y6pjAiemuvlg==
+  service_name: test

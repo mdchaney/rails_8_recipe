@@ -1,0 +1,9 @@
+one_attachment:
+  name: image
+  record: one (Recipe)
+  blob: one_blob
+
+two_attachment:
+  name: image
+  record: two (Recipe)
+  blob: two_blob

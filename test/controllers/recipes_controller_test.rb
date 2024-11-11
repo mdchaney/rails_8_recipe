@@ -3,6 +3,7 @@ require "test_helper"
 class RecipesControllerTest < ActionDispatch::IntegrationTest
   setup do
     @recipe = recipes(:one)
+    login "one@example.com", "password"
   end
 
   test "should get index" do
