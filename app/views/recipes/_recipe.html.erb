@@ -1,7 +1,9 @@
 <div id="<%= dom_id recipe %>">
-  <p>
-    <%= image_tag recipe.image, size: "100x100" %>
-  </p>
+  <% if recipe.image.attached? %>
+    <p>
+      <%= image_tag recipe.image, size: "100x100" %>
+    </p>
+  <% end -%>
 
   <p>
     <strong>Name:</strong>
@@ -17,5 +19,4 @@
     <strong>Instructions:</strong>
     <%= recipe.instructions %>
   </p>
-
 </div>

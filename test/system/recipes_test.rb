@@ -3,6 +3,8 @@ require "application_system_test_case"
 class RecipesTest < ApplicationSystemTestCase
   setup do
     @recipe = recipes(:one)
+    @user = users(:one)
+    login_cap(@user.email_address, "password")
   end
 
   test "visiting the index" do
